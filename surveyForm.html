@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>How are we doing?</title>
+    </head>
+    <body id="main">
+        <div class="container">
+        <header>
+        <h1 id="title">FitnessClub Survey Form</h1>
+        <p id="description">Please fill in this survey to help us improve your fitness experience</p>
+        </header>
+        <form id="survery-form">
+            <div class="form-group">
+                <label id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Please enter your name" class="input-style">
+            </div>
+            <div class="form-group">
+                <label id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Please enter your email address"  class="input-style" required>
+            </div>
+            <div class="form-group">
+                <label id="phonenumber-label">Phone Number</label>
+                <input type="number" id="phonenumber" placeholder="Please enter your phone number" class="input-style" required>
+            </div>
+            <div class="form-group">
+                <p>Please select your primary reason for going to the gym</p>
+                <select id="gym-goal" name="gym-goal" required>
+                    <option id="dropdown" disabled selected value>Choose your main goal</option>
+                   <option value="build-mass">Build mass and size</option>
+                   <option value="lose-weight">To lose weight</option>
+                   <option value="cardio-health">Improve cardiovascular health</option>
+                </select>
+                
+            </div>
+            <div class="form-group">
+               <p>How did you hear about FitnessClub?</p>
+               <label for="word-of-mouth">Word of mouth<input type="radio" name="how-hear" id="word-of-mouth" value="word-of-mouth"></label>
+               <label for="advert">Advert<input type="radio" name="how-hear" id="advert" value="advert"></label>
+               <label for="other">Other<input type="radio" name="how-hear" id="other" value="other"></label>
+            </div>
+            <div class="form-group">
+              <p>In an average week, how often do you visit FitnessClub?</p>
+              <label for="one-two">1-2 times per week<input type="radio" name="how-often" id="one-two" value="one-two"></label>
+              <label for="three-five">3-5 times per week<input type="radio" name="how-often" id="three-five" value="three-five"></label>
+              <label for="five-plus">More than 5 times per week<input type="radio" name="how-often" id="five-plus" value="five-plus"></label>
+            </div>
+            <div class="form-group">
+                <p>What are your favourite features of FitnessClub? (Please select all that apply)</p>
+                <label for="equipment">Range of equipment<input type="checkbox" id="equipment" name="fav-feature" value="equipment"></label>
+                <label for="atmosphere">The atmosphere<input type="checkbox" id="atmosphere" name="fav-feature" value="atmosphere"></label>
+                <label for="people">The people<input type="checkbox" id="people" name="fav-feature" value="people"></label>
+                <label for="music">The music<input type="checkbox" id="music" name="fav-feature" value="music"></label>
+            </div>
+            <div class="form-group">
+              <p>Any comments or suggestions?</p>
+              <textarea id="comments" name="comments" placeholder="Enter your comment here...">
+
+              </textarea>
+            </div>
+            <div class="form-group">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

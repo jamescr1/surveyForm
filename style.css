@@ -1,0 +1,75 @@
+:root {
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-darkblue: #1b1b32;
+    --color-white: #f3f3f3;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: var(--color-darkblue);
+    margin: 0;
+    color: var(--color-white);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), 
+    url(https://images.squarespace-cdn.com/content/v1/5dd5da5b8063ab0b2e3c0693/1574298468312-KNHCGSU3W92SFDNV0551/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Fupv3Bu6.jpeg);
+    line-height: 1.4;
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    max-width: 720px;
+}
+
+form {
+    background: var(--color-darkblue-alpha);
+    margin: 0;
+    border-radius: 0.25rem;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+div {
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-style {
+    display: block;
+    width: 90%;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    color: #495057;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#comments {
+    width: 90%;
+    min-height: 120px;
+    border-radius: 0.25rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
